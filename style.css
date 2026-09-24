@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div {
+    width: 50%;
+    aspect-ratio: 1/1;
+    background: gold;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0fr 0fr;
+    gap: 20px;
+    grid-template-columns: 0fr 0fr;
+    grid-auto-rows: 50px;
+}
+
+.container > div {
+    background-color: greenyellow;
+    padding: 20px;
+}
+
+div.boxi {
+    background-color: bisque;
+    color: rgb(26, 12, 12);
+    padding: 30px 80px;
+    border: none;
+}
+
+div.boxi:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
